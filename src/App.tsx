@@ -85,7 +85,7 @@ function App() {
       }
     };
 
-    const interval = setInterval(updatePostura, 5000);
+    const interval = setInterval(updatePostura, 1000);
     updatePostura(); // Llamada inicial
 
     return () => {
