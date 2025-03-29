@@ -39,7 +39,8 @@ function App() {
   // Función optimizada para llamar a la API
   const fetchPostura = async (): Promise<PosturaData> => {
     try {
-      const response = await fetch('http://localhost:3000/api/postura', {
+      //const response = await fetch('http://localhost:3000/api/postura', {
+        const response = await fetch('http://167.88.43.130:7100/api/postura', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
