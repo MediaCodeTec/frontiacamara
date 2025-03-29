@@ -4,7 +4,7 @@ import { Postura, PosturaData, PosturaConfig } from './types';
 
 function App() {
   const [postura, setPostura] = useState<Postura>(null);
-  const [loading, setLoading] = useState<boolean>(true);
+  const [loading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const [lastUpdated, setLastUpdated] = useState<string>('');
 
